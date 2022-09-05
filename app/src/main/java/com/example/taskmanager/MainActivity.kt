@@ -54,7 +54,8 @@ fun TaskCompleted() {
                 .padding(top = 24.dp, bottom = 8.dp)
         )
         Text(
-            text = "Dobra robota!"
+            text = stringResource(R.string.text_2),
+            fontSize = 16.sp
         )
     }
 }
